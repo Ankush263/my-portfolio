@@ -1,32 +1,3 @@
-// import React from 'react'
-
-// function Navbar() {
-
-//   const styles = {
-//     box: `border-2 w-screen h-20 flex justify-between items-center`,
-//     left: `border-2 h-full w-3/12`,
-//     right: `border-2 h-full w-7/12 flex justify-around items-center`,
-//     sm: ``,
-//   }
-
-//   return (
-//     <div className={styles.box}>
-//       <div className={styles.left}></div>
-//       <div className={styles.right}>
-//         <div className={styles.sm}>HOME</div>
-//         <div className={styles.sm}>ABOUT</div>
-//         <div className={styles.sm}>SKILLS</div>
-//         <div className={styles.sm}>PROJECTS</div>
-//         <div className={styles.sm}>RESUME</div>
-//         <div className={styles.sm}>OPENSOURCE</div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
-
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
@@ -35,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 // import NavLogo from '../public/assets/navLogo.png'
+import logo from '../public/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -86,13 +58,13 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
-            {/* <Image
-              src={NavLogo}
+            <Image
+              src={logo}
               alt='/'
-              width='125'
-              height='50'
+              width='150'
+              height='145'
               className='cursor-pointer'
-            /> */}
+            />
           </a>
         </Link>
         <div>
@@ -113,7 +85,7 @@ const Navbar = () => {
               <Link href='/resume'>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
+              <Link href='/#hackathons'>Hackathons</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -146,12 +118,12 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <a>
-                  {/* <Image
-                    src={NavLogo}
-                    width='87'
-                    height='35'
+                  <Image
+                    src={logo}
+                    width='90'
+                    height='60'
                     alt='/'
-                  /> */}
+                  />
                 </a>
               </Link>
               <div
@@ -194,9 +166,9 @@ const Navbar = () => {
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/#hackathons'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
+                  Hackathons
                 </li>
               </Link>
             </ul>
@@ -223,7 +195,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <Link href='/#hackathons'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
