@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+import Hackathons from '../components/Hackathons'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +21,8 @@ const Home: NextPage = () => {
       <Main />
       <About />
       <Skills />
+      <Projects />
+      <Hackathons />
     </div>
   )
 }
