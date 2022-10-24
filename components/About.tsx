@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-400'>
             I specialised in building Dapps from smart contracts using pinata IPFS 
             and other web3.0 technologies. I’m passionate about learning new technologies
             and understand there is more than one way to accomplish a task. 
@@ -21,7 +21,7 @@ const About = () => {
             I believe that being a great developer is not using one specific language, 
             but choosing the best tool for the job.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-400'>
           I started my development journey in 2021. 
           Throughout this journey, I learned various tech stacks 
           and collab with various people. I have experience working directly with remote companies 
