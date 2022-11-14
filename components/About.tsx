@@ -13,8 +13,8 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-400'>
-            I specialised in building Dapps from smart contracts using pinata IPFS 
-            and other web3.0 technologies. I’m passionate about learning new technologies
+            I specialized in building Dapps from smart contracts using pinata IPFS 
+            and other web3.0 technologies. I&apos;m passionate about learning new technologies
             and understand there is more than one way to accomplish a task. 
             I am OpenSource enthusiastic, contributing to various kinds of projects in OpenSource and
             I am a quick learner and can pick up new tech stacks as needed. 
