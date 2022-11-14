@@ -11,8 +11,10 @@ import logo from '../public/logo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  // const [navBg, setNavBg] = useState('#ecf0f3');
+  const [navBg, setNavBg] = useState('#000000');
+  // const [linkColor, setLinkColor] = useState('#1f2937');
+  const [linkColor, setLinkColor] = useState('#ffffff');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -35,6 +37,12 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const handleClick = () => {
+    if(typeof window !== 'undefined') {
+      window.location.replace("mailto:ankushbanik263@gmail.com")
+    }
+  }
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -51,7 +59,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
+          ? 'fixed w-full h-20 shadow-xl shadow-gray-400 z-[100] ease-in-out duration-300'
           : 'fixed w-full h-20 z-[100]'
       }
     >
@@ -87,6 +95,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#hackathons'>Hackathons</Link>
             </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#contact'>Contact</Link>
+            </li>
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -110,8 +121,12 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+          // className={
+          //   nav
+          //     ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+          //     : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
           <div>
@@ -133,7 +148,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300 my-4'>
+            <div className='border-b border-gray-400 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
                 Let&#39;s build something legendary together
               </p>
@@ -178,7 +193,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/ankush-banik-b61bb6214/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -187,7 +202,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/Ankush263'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -195,14 +210,14 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#hackathons'>
+                <div onClick={handleClick}>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
-                </Link>
+                </div>
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}
