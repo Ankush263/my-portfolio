@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
 
@@ -21,7 +19,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Anime NFT Marketplace'
-            backgroundImg='/Projects/nftMarket.png'
+            backgroundImg='/Projects/nft.png'
             github='https://github.com/Ankush263/NFT--MarketPlace'
             live='https://anime-nft-marketplace.vercel.app/'
             tech='React JS'
