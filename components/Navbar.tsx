@@ -90,7 +90,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>Resume</a>
+              <a href='https://drive.google.com/file/d/1udQu6RcF22ZBob_4A0m9KF3JXEmyYSfM/view?usp=share_link'>Resume</a>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#hackathons'>Hackathons</Link>
@@ -176,7 +176,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>
+              <a href='https://drive.google.com/file/d/1udQu6RcF22ZBob_4A0m9KF3JXEmyYSfM/view?usp=share_link'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
@@ -218,7 +218,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </div>
-                <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1udQu6RcF22ZBob_4A0m9KF3JXEmyYSfM/view?usp=share_link'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
