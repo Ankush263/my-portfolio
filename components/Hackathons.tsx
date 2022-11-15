@@ -1,6 +1,4 @@
 import React from 'react'
-import celo from '../public/opensource/celo.jpg'
-import web3 from '../public/opensource/web3.jpg'
 import AllHacks from './AllHacks'
 
 function Hackathons() {
@@ -15,7 +13,7 @@ function Hackathons() {
         <div className='grid md:grid-cols-2 gap-8'>
           <AllHacks
             title='Web3athon'
-            backgroundImg={web3}
+            backgroundImg='/opensource/web3.jpg'
             projectUrl='https://web3athon.hackerearth.com/'
             tech='Win 2nd🏆 place on CELO chain'
             github='https://github.com/FOWGit/WEB3athon-FOW'
@@ -23,7 +21,7 @@ function Hackathons() {
           />
           <AllHacks
             title='Build with Celo'
-            backgroundImg={celo}
+            backgroundImg='/opensource/celo.jpg'
             projectUrl='https://build-with-celo.hackerearth.com/'
             tech='Ongoing'
             github='https://github.com/Ankush263/FOW---build-with-celo-hackathon'
