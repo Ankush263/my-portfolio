@@ -90,7 +90,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+              <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>Resume</a>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#hackathons'>Hackathons</Link>
@@ -176,11 +176,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
-              </Link>
+              </a>
               <Link href='/#hackathons'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Hackathons
@@ -218,14 +218,14 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </div>
-                <Link href='/resume'>
+                <a href='https://drive.google.com/file/d/1JZhEDIXqPuAvIRQfOh77p17LdVjsC4Y3/view?usp=sharing'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
