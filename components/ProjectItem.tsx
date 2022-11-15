@@ -1,7 +1,23 @@
+import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
+
+export const getStaticProps: GetStaticProps = async(contex) => {
+
+  return {
+    revalidate: 5,
+    props: {
+      title: '',
+      backgroundImg: '',
+      tech: '',
+      github: '',
+      live: ''
+    }
+  }
+
+}
 
 const ProjectItem = ({title, backgroundImg, tech, github, live}: any) => {
   return (
