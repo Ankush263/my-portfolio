@@ -7,6 +7,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Hackathons from '../components/Hackathons'
+import Contact from '../components/Contact'
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Skills />
       <Projects />
       <Hackathons />
+      <Contact />
     </div>
   )
 }
