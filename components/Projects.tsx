@@ -1,12 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import ecommarce from '../public/Projects/ecommarce.png'
-import nftmarket from '../public/Projects/nftMarket.png'
-import tokenfaucet from '../public/Projects/tokenfaucet.png'
-import tokenswap from '../public/Projects/tokenswap.png'
-import sendeth from '../public/Projects/sendeth.png'
-import staking from '../public/Projects/staking.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -20,14 +14,14 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Web3.0 Ecommarce'
-            backgroundImg={ecommarce}
+            backgroundImg='/Projects/ecommarce.png'
             github='https://github.com/Ankush263/Ecommarce--Web3--Dapp'
             live='https://ecommarce-web.vercel.app/'
             tech='Next JS'
           />
           <ProjectItem
             title='Anime NFT Marketplace'
-            backgroundImg={nftmarket}
+            backgroundImg='/Projects/nftMarket.png'
             github='https://github.com/Ankush263/NFT--MarketPlace'
             live='https://anime-nft-marketplace.vercel.app/'
             tech='React JS'
@@ -35,7 +29,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Staking Coins Dapp'
-            backgroundImg={staking}
+            backgroundImg='/Projects/staking.png'
             github='https://github.com/Ankush263/Staking-Coins-Dapp--Project'
             live='https://staking-coin-dapp.vercel.app'
             tech='React JS'
@@ -43,7 +37,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='DANK Token Faucet'
-            backgroundImg={tokenfaucet}
+            backgroundImg='/Projects/tokenfaucet.png'
             github='https://github.com/Ankush263/DANK--Token'
             live='https://dank-token.netlify.app/'
             tech='React JS'
@@ -51,7 +45,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='ANK Token Swap'
-            backgroundImg={tokenswap}
+            backgroundImg='/Projects/tokenswap.png'
             github='https://github.com/Ankush263/ANK-Token-Swap-Ethereum-'
             live='https://ank-token-swap.netlify.app/'
             tech='Next JS'
@@ -59,7 +53,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Send eth'
-            backgroundImg={sendeth}
+            backgroundImg='/Projects/sendeth.png'
             github='https://github.com/Ankush263/Web3.0---SendETH'
             live='https://send-eth-dapp.netlify.app'
             tech='React JS'
