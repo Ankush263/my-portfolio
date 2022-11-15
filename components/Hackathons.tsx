@@ -18,12 +18,16 @@ function Hackathons() {
             backgroundImg={web3}
             projectUrl='https://web3athon.hackerearth.com/'
             tech='Win 2nd🏆 place on CELO chain'
+            github='https://github.com/FOWGit/WEB3athon-FOW'
+            live='https://fow-original.netlify.app/'
           />
           <AllHacks
             title='Build with Celo'
             backgroundImg={celo}
             projectUrl='https://build-with-celo.hackerearth.com/'
             tech='Ongoing'
+            github='https://github.com/Ankush263/FOW---build-with-celo-hackathon'
+            live='https://fow-build-with-celo-hackathon.vercel.app/'
           />
         </div>
       </div>
