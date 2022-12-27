@@ -11,10 +11,10 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Web3.0 Ecommarce'
-            backgroundImg='/Projects/ecommarce.png'
-            github='https://github.com/Ankush263/Ecommarce--Web3--Dapp'
-            live='https://ecommarce-web.vercel.app/'
+            title='Web3.0 Polygon Ecommarce'
+            backgroundImg='/Projects/ecommercePolygon.png'
+            github='https://github.com/Ankush263/Polygon-Ecommerce-Shop'
+            live='https://polygon-ecommerce-shop.vercel.app/'
             tech='Next JS'
           />
           <ProjectItem
