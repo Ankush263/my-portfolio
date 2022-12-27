@@ -23,7 +23,7 @@ function Hackathons() {
             title='Build with Celo'
             backgroundImg='/opensource/celo.jpg'
             projectUrl='https://build-with-celo.hackerearth.com/'
-            tech='Ongoing'
+            // tech='Ongoing'
             github='https://github.com/Ankush263/FOW---build-with-celo-hackathon'
             live='https://fow-build-with-celo-hackathon.vercel.app/'
           />
