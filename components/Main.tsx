@@ -22,11 +22,10 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi👋, I&#39;m <span className='text-[#5651e5]'> Ankush</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Web3.0 Blockchain Developer</h1>
+          <h1 className='py-2 text-gray-700'>{"A Web2 + Web3 Developer"}</h1>
           <h1 className='py-2 text-orange-600'>(🎉Win 2nd🏆 place in Web3athon🎉)</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building smart contracts & 
-            Integrating it with front-end.
+            {`I’m focused on learning various stuff and collaborate with wide range of people`}
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

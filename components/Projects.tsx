@@ -11,6 +11,13 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
+            title='HealthChain'
+            backgroundImg='/Projects/healthchain1.png'
+            github='https://github.com/Ankush263/Healthcare'
+            live='https://healthcare-final.vercel.app/'
+            tech='Next JS'
+          />
+          <ProjectItem
             title='Web3.0 Polygon Ecommarce'
             backgroundImg='/Projects/ecommercePolygon.png'
             github='https://github.com/Ankush263/Polygon-Ecommerce-Shop'
@@ -49,13 +56,13 @@ const Projects = () => {
             tech='Next JS'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Send eth'
             backgroundImg='/Projects/sendeth.png'
             github='https://github.com/Ankush263/Web3.0---SendETH'
             live='https://send-eth-dapp.netlify.app'
             tech='React JS'
-          />
+          /> */}
           
         </div>
       </div>

@@ -36,7 +36,7 @@ function AllHacks({title, backgroundImg, tech, projectUrl, github, live}: any) {
                 </p>
               </a>
           </Link>
-          <Link href={github}>
+          {/* <Link href={github}>
               <a target='_blank'>
               <div className='rounded-full p-5 cursor-pointer shadow-lg shadow-gray-700 bg-black'>
                 <FaGithub />
@@ -49,7 +49,7 @@ function AllHacks({title, backgroundImg, tech, projectUrl, github, live}: any) {
                 Live
               </p>
             </a>
-          </Link>
+          </Link> */}
         </div>
         
       </div>

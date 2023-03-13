@@ -27,6 +27,31 @@ function Hackathons() {
             github='https://github.com/Ankush263/FOW---build-with-celo-hackathon'
             live='https://fow-build-with-celo-hackathon.vercel.app/'
           />
+
+          <AllHacks
+            title='Buidl the Future'
+            backgroundImg='/opensource/coinbase.png'
+            projectUrl='https://buidl-the-future.hackerearth.com/'
+          />
+
+          <AllHacks
+            title='Hackathon of Hope with Celo'
+            backgroundImg='/opensource/hope.png'
+            tech='Top 10 Project'
+            projectUrl='https://hope.hackerearth.com/'
+          />
+
+          <AllHacks
+            title='Octahacks 5.0'
+            backgroundImg='/opensource/octahack.jpg'
+            projectUrl='https://octahacks.devfolio.co/'
+          />
+
+          <AllHacks
+            title='Eth for All'
+            backgroundImg='/opensource/ethforall.png'
+            projectUrl='https://ethforall.devfolio.co/overview'
+          />
         </div>
       </div>
     </div>

@@ -2,7 +2,10 @@ import Image from 'next/image';
 import React from 'react';
 import Java from '../public/skills/java.png'
 import html from '../public/skills/html.png'
+import expressjs from '../public/skills/expressjs.png'
+import mongodb from '../public/skills/mongodb.png'
 import css from '../public/skills/css.png'
+import ts from '../public/skills/ts.png'
 import javascript from '../public/skills/javascript.png'
 import react from '../public/skills/react.png'
 import tailwind from '../public/skills/tailwind.png'
@@ -26,10 +29,10 @@ const Skills = () => {
         <div className='p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300 bg-red-500'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Java} width='64px' height='64px' alt='/' />
+                <Image src={ts} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Java</h3>
+                <h3>Type Script</h3>
               </div>
             </div>
           </div>
@@ -37,10 +40,10 @@ const Skills = () => {
           <div className='p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300 bg-red-500'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={html} width='64px' height='64px' alt='/' />
+                <Image src={mongodb} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>mongoDB</h3>
               </div>
             </div>
           </div>
@@ -48,10 +51,10 @@ const Skills = () => {
           <div className='p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300 bg-red-500'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={css} width='64px' height='64px' alt='/' />
+                <Image src={expressjs} width='80px' height='70px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h3>Express js</h3>
               </div>
             </div>
           </div>
