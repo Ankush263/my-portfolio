@@ -13,20 +13,10 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-400'>
-            I specialized in building Dapps from smart contracts using pinata IPFS 
-            and other web3.0 technologies. I&apos;m passionate about learning new technologies
-            and understand there is more than one way to accomplish a task. 
-            I am OpenSource enthusiastic, contributing to various kinds of projects in OpenSource and
-            I am a quick learner and can pick up new tech stacks as needed. 
-            I believe that being a great developer is not using one specific language, 
-            but choosing the best tool for the job.
+          I specialize in building decentralized applications (Dapps) using smart contracts, with expertise in utilizing technologies like Pinata and IPFS in the Web3.0 ecosystem. Passionate about learning new technologies, I embrace the concept that there are multiple ways to achieve a task efficiently. As an Open Source enthusiast, I actively contribute to diverse projects and constantly strive to expand my skill set. I am known for being a quick learner, adapting to new tech stacks as needed. For me, being a great developer means selecting the best tool for each job.
           </p>
           <p className='py-2 text-gray-400'>
-          I started my development journey in 2021. 
-          Throughout this journey, I learned various tech stacks 
-          and collab with various people. I have experience working directly with remote companies 
-          as I participate in various Hackathons. In my spare time, 
-          I learn DSA and contribute to OpenSource.
+          I embarked on my development journey in 2021 and since then, I have immersed myself in various tech stacks while collaborating with talented individuals. I have gained experience working directly with remote companies through participation in numerous Hackathons. During my spare time, I focus on enhancing my data structures and algorithms (DSA) knowledge, and actively contribute to Open Source projects. With a strong foundation and a passion for innovation, I am dedicated to pushing the boundaries of what is possible in the world of technology.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

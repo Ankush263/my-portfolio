@@ -67,7 +67,7 @@ const Contact = () => {
                   <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <a href='https://drive.google.com/file/d/1udQu6RcF22ZBob_4A0m9KF3JXEmyYSfM/view?usp=share_link'>
+                  <a href='https://drive.google.com/file/d/1K2G9ZWicEXYDcpapsi_sE4nU4d8BTKZY/view?usp=sharing' target='blank'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <BsFillPersonLinesFill />
                     </div>

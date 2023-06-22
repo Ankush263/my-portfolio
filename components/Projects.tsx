@@ -11,6 +11,14 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
+            title='FOW-FARM'
+            mobile={true}
+            backgroundImg='/Projects/fow1.png'
+            github='https://github.com/Ankush263/FOW-FARM'
+            live='https://fow-farm.vercel.app/'
+            tech='Next JS'
+          />
+          <ProjectItem
             title='HealthChain'
             backgroundImg='/Projects/healthchain1.png'
             github='https://github.com/Ankush263/Healthcare'
@@ -48,14 +56,14 @@ const Projects = () => {
             tech='React JS'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='ANK Token Swap'
             backgroundImg='/Projects/tokenswap.png'
             github='https://github.com/Ankush263/ANK-Token-Swap-Ethereum-'
             live='https://ank-token-swap.netlify.app/'
             tech='Next JS'
 
-          />
+          /> */}
           {/* <ProjectItem
             title='Send eth'
             backgroundImg='/Projects/sendeth.png'

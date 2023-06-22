@@ -23,7 +23,7 @@ const Main = () => {
             Hi👋, I&#39;m <span className='text-[#5651e5]'> Ankush</span>
           </h1>
           <h1 className='py-2 text-gray-700'>{"A Web2 + Web3 Developer"}</h1>
-          <h1 className='py-2 text-orange-600'>(🎉Win 2nd🏆 place in Web3athon🎉)</h1>
+          <h1 className='py-2 text-orange-600'>{`(🥑Lead developer @ Feed Our World🧑‍💻)`}</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             {`I’m focused on learning various stuff and collaborate with wide range of people`}
           </p>
@@ -52,7 +52,7 @@ const Main = () => {
               </div>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <a href='https://drive.google.com/file/d/1udQu6RcF22ZBob_4A0m9KF3JXEmyYSfM/view?usp=share_link'>
+              <a href='https://drive.google.com/file/d/1K2G9ZWicEXYDcpapsi_sE4nU4d8BTKZY/view?usp=sharing' target='blank'>
                   <BsFillPersonLinesFill />
               </a>
             </div>
